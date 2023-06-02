@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>converso de Romanos para arabicos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 style="font-size: 70px;">conversor de Romanos para arabicos</h1><br>
+    <div class="secao">
+    <div >
+        <label for="numero">Número</label> <br>
+        <input type="text" id="numero">
+      </div>
+    
+      <div>
+        <label for="tipo-conversao">Tipo de Conversão</label> <br>
+        <select id="tipo-conversao">
+          <option value="romano-para-hebraico">Romano para Hebraico</option>
+          <option value="hebraico-para-romano">Hebraico para Romano</option>
+        </select>
+      </div>
+      <div>
+        <button onclick="converterNumeros()">Converter</button>
+      </div>
+
+        <p id="resultado"></p>
+    </div>
+
+</div>
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
